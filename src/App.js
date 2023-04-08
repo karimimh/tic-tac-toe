@@ -1,11 +1,10 @@
 import './App.css';
-import Board from "./Board";
-import {useState} from "react";
+import Game from "./Game";
 
 function App() {
     return (
         <div className="App">
-            <Board/>
+            <Game/>
         </div>
     );
 }
